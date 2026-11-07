@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life Dashboard</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <!-- Top Action Bar -->
+        <div class="top-bar">
+            <button id="theme-toggle" class="secondary">🌙 Dark Mode</button>
+        </div>
+
+        <!-- Greeting Widget -->
+        <section id="greeting-widget" class="widget">
+            <h1 id="greeting-text">Good morning</h1>
+            <h2 id="greeting-time">00:00:00</h2>
+            <p id="greeting-date">Loading date...</p>
+        </section>
+
+        <!-- Focus Timer Widget -->
+        <section id="timer-widget" class="widget">
+            <h2>Focus Timer</h2>
+            <div id="timer-display">25:00</div>
+            <div class="timer-controls">
+                <button id="btn-start">Start</button>
+                <button id="btn-stop" class="secondary">Stop</button>
+                <button id="btn-reset" class="secondary">Reset</button>
+            </div>
+            <div class="timer-settings form-group" style="margin-top: 1.5rem;">
+                <div class="input-group">
+                    <input type="number" id="timer-input" min="1" max="120" value="25" placeholder="Menit">
+                    <button id="btn-set-time">Set Waktu</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- To-Do List Widget -->
+        <section id="todo-widget" class="widget">
+            <h2>To-Do List</h2>
+            <form id="add-task-form" class="input-group">
+                <input type="text" id="task-input" placeholder="What needs to be done?" required>
+                <button type="submit">Add</button>
+            </form>
+            
+            <!-- Sorting Option -->
+            <div style="margin-top: 1rem; margin-bottom: 0.5rem;">
+                <select id="sort-tasks" class="select-input">
+                    <option value="default">Urutkan: Terlama (Default)</option>
+                    <option value="newest">Urutkan: Terbaru</option>
+                    <option value="active">Urutkan: Belum Selesai (Active)</option>
+                    <option value="completed">Urutkan: Selesai Saja (Completed)</option>
+                </select>
+            </div>
+
+            <ul id="task-list"></ul>
+        </section>
+
+        <!-- Quick Links Widget -->
+        <section id="links-widget" class="widget">
+            <h2>Quick Links</h2>
+            <form id="add-link-form" class="form-group">
+                <input type="text" id="link-name" placeholder="Site Name (e.g. YouTube)" required>
+                <div class="input-group">
+                    <input type="url" id="link-url" placeholder="https://..." required>
+                    <button type="submit">Add</button>
+                </div>
+            </form>
+            <ul id="link-list"></ul>
+        </section>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>

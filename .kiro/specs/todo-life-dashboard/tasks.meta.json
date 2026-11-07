@@ -1,0 +1,325 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1.1 Create index.html with semantic structure for all four widgets": [
+      {
+        "executionId": "d36021a7-1a2e-487e-886d-3c3183127d7d",
+        "chatSessionId": "sess_287a73a3-0609-4574-851b-7c6934a21ebb",
+        "timestamp": 1793979485939
+      },
+      {
+        "executionId": "d36021a7-1a2e-487e-886d-3c3183127d7d",
+        "chatSessionId": "sess_287a73a3-0609-4574-851b-7c6934a21ebb",
+        "timestamp": 1793979578822
+      },
+      {
+        "executionId": "d36021a7-1a2e-487e-886d-3c3183127d7d",
+        "chatSessionId": "sess_287a73a3-0609-4574-851b-7c6934a21ebb",
+        "timestamp": 1793982716771
+      }
+    ],
+    "1.2 Create css/styles.css with base styling meeting accessibility requirements": [
+      {
+        "executionId": "d36021a7-1a2e-487e-886d-3c3183127d7d",
+        "chatSessionId": "sess_287a73a3-0609-4574-851b-7c6934a21ebb",
+        "timestamp": 1793979489843
+      },
+      {
+        "executionId": "d36021a7-1a2e-487e-886d-3c3183127d7d",
+        "chatSessionId": "sess_287a73a3-0609-4574-851b-7c6934a21ebb",
+        "timestamp": 1793982725523
+      }
+    ],
+    "1.3 Set up package.json with Jest, jsdom, and fast-check dev dependencies": [
+      {
+        "executionId": "d36021a7-1a2e-487e-886d-3c3183127d7d",
+        "chatSessionId": "sess_287a73a3-0609-4574-851b-7c6934a21ebb",
+        "timestamp": 1793979496156
+      },
+      {
+        "executionId": "d36021a7-1a2e-487e-886d-3c3183127d7d",
+        "chatSessionId": "sess_287a73a3-0609-4574-851b-7c6934a21ebb",
+        "timestamp": 1793979580041
+      },
+      {
+        "executionId": "d36021a7-1a2e-487e-886d-3c3183127d7d",
+        "chatSessionId": "sess_287a73a3-0609-4574-851b-7c6934a21ebb",
+        "timestamp": 1793982718260
+      }
+    ],
+    "2.1 Create IIFE shell with state object, ID generation, and window.Dashboard namespace; implement validateTaskText and validateLink": [
+      {
+        "executionId": "d36021a7-1a2e-487e-886d-3c3183127d7d",
+        "chatSessionId": "sess_287a73a3-0609-4574-851b-7c6934a21ebb",
+        "timestamp": 1793979497572
+      },
+      {
+        "executionId": "d36021a7-1a2e-487e-886d-3c3183127d7d",
+        "chatSessionId": "sess_287a73a3-0609-4574-851b-7c6934a21ebb",
+        "timestamp": 1793982726865
+      },
+      {
+        "executionId": "d36021a7-1a2e-487e-886d-3c3183127d7d",
+        "chatSessionId": "sess_287a73a3-0609-4574-851b-7c6934a21ebb",
+        "timestamp": 1793983677174
+      }
+    ],
+    "2.2 Implement serialize and deserialize functions for tasks and links": [
+      {
+        "executionId": "d36021a7-1a2e-487e-886d-3c3183127d7d",
+        "chatSessionId": "sess_287a73a3-0609-4574-851b-7c6934a21ebb",
+        "timestamp": 1793979498828
+      },
+      {
+        "executionId": "d36021a7-1a2e-487e-886d-3c3183127d7d",
+        "chatSessionId": "sess_287a73a3-0609-4574-851b-7c6934a21ebb",
+        "timestamp": 1793983695702
+      }
+    ],
+    "3.1 Implement greeting pure logic (greetingForDate, formatTime, formatDate)": [
+      {
+        "executionId": "d36021a7-1a2e-487e-886d-3c3183127d7d",
+        "chatSessionId": "sess_287a73a3-0609-4574-851b-7c6934a21ebb",
+        "timestamp": 1793979499369
+      }
+    ],
+    "4.1 Implement timer pure logic and state operations (formatDuration, remaining-time helper, timerStart, timerStop, timerReset)": [
+      {
+        "executionId": "d36021a7-1a2e-487e-886d-3c3183127d7d",
+        "chatSessionId": "sess_287a73a3-0609-4574-851b-7c6934a21ebb",
+        "timestamp": 1793979500340
+      }
+    ],
+    "5.1 Implement task state operations (addTask, editTask, toggleTask, deleteTask)": [
+      {
+        "executionId": "d36021a7-1a2e-487e-886d-3c3183127d7d",
+        "chatSessionId": "sess_287a73a3-0609-4574-851b-7c6934a21ebb",
+        "timestamp": 1793979500920
+      }
+    ],
+    "6.1 Implement link state operations (addLink, deleteLink)": [
+      {
+        "executionId": "d36021a7-1a2e-487e-886d-3c3183127d7d",
+        "chatSessionId": "sess_287a73a3-0609-4574-851b-7c6934a21ebb",
+        "timestamp": 1793979501719
+      }
+    ],
+    "7.1 Implement save functions (saveTasks, saveLinks) with error handling": [
+      {
+        "executionId": "d36021a7-1a2e-487e-886d-3c3183127d7d",
+        "chatSessionId": "sess_287a73a3-0609-4574-851b-7c6934a21ebb",
+        "timestamp": 1793979502271
+      }
+    ],
+    "7.2 Implement loadAll function with graceful fallback": [
+      {
+        "executionId": "d36021a7-1a2e-487e-886d-3c3183127d7d",
+        "chatSessionId": "sess_287a73a3-0609-4574-851b-7c6934a21ebb",
+        "timestamp": 1793979503053
+      }
+    ],
+    "8.1 Implement Greeting Widget DOM rendering (renderGreeting, startGreetingClock)": [
+      {
+        "executionId": "d36021a7-1a2e-487e-886d-3c3183127d7d",
+        "chatSessionId": "sess_287a73a3-0609-4574-851b-7c6934a21ebb",
+        "timestamp": 1793979504119
+      }
+    ],
+    "8.3 Implement Focus Timer DOM rendering and controls": [
+      {
+        "executionId": "d36021a7-1a2e-487e-886d-3c3183127d7d",
+        "chatSessionId": "sess_287a73a3-0609-4574-851b-7c6934a21ebb",
+        "timestamp": 1793979504757
+      }
+    ],
+    "8.5 Implement To-Do List DOM rendering (renderTaskList) and event delegation": [
+      {
+        "executionId": "d36021a7-1a2e-487e-886d-3c3183127d7d",
+        "chatSessionId": "sess_287a73a3-0609-4574-851b-7c6934a21ebb",
+        "timestamp": 1793979505404
+      }
+    ],
+    "8.7 Implement Quick Links DOM rendering (renderLinkList, openLink) and event delegation": [
+      {
+        "executionId": "d36021a7-1a2e-487e-886d-3c3183127d7d",
+        "chatSessionId": "sess_287a73a3-0609-4574-851b-7c6934a21ebb",
+        "timestamp": 1793979506174
+      }
+    ],
+    "9.1 Implement init() bootstrap wiring all widgets together": [
+      {
+        "executionId": "d36021a7-1a2e-487e-886d-3c3183127d7d",
+        "chatSessionId": "sess_287a73a3-0609-4574-851b-7c6934a21ebb",
+        "timestamp": 1793979506696
+      }
+    ],
+    "10. Final checkpoint - Ensure all tests pass": [
+      {
+        "executionId": "d36021a7-1a2e-487e-886d-3c3183127d7d",
+        "chatSessionId": "sess_287a73a3-0609-4574-851b-7c6934a21ebb",
+        "timestamp": 1793979507486
+      }
+    ],
+    "2.3 Write property test for task serialization round-trip": [
+      {
+        "executionId": "d36021a7-1a2e-487e-886d-3c3183127d7d",
+        "chatSessionId": "sess_287a73a3-0609-4574-851b-7c6934a21ebb",
+        "timestamp": 1793979527492
+      }
+    ],
+    "2.4 Write property test for link serialization round-trip": [
+      {
+        "executionId": "d36021a7-1a2e-487e-886d-3c3183127d7d",
+        "chatSessionId": "sess_287a73a3-0609-4574-851b-7c6934a21ebb",
+        "timestamp": 1793979543468
+      }
+    ],
+    "2.5 Write property test for invalid persisted data deserializing to empty list": [
+      {
+        "executionId": "d36021a7-1a2e-487e-886d-3c3183127d7d",
+        "chatSessionId": "sess_287a73a3-0609-4574-851b-7c6934a21ebb",
+        "timestamp": 1793979549458
+      }
+    ],
+    "3.2 Write property test for greeting partition of the day": [
+      {
+        "executionId": "d36021a7-1a2e-487e-886d-3c3183127d7d",
+        "chatSessionId": "sess_287a73a3-0609-4574-851b-7c6934a21ebb",
+        "timestamp": 1793979550386
+      }
+    ],
+    "3.3 Write property test for clock formatting reflecting the input date": [
+      {
+        "executionId": "d36021a7-1a2e-487e-886d-3c3183127d7d",
+        "chatSessionId": "sess_287a73a3-0609-4574-851b-7c6934a21ebb",
+        "timestamp": 1793979551744
+      }
+    ],
+    "5.2 Write property test for adding a valid task growing the list by exactly one": [
+      {
+        "executionId": "d36021a7-1a2e-487e-886d-3c3183127d7d",
+        "chatSessionId": "sess_287a73a3-0609-4574-851b-7c6934a21ebb",
+        "timestamp": 1793979552476
+      }
+    ],
+    "4.2 Write property test for remaining time being monotonic, non-negative, and stopping at zero": [
+      {
+        "executionId": "d36021a7-1a2e-487e-886d-3c3183127d7d",
+        "chatSessionId": "sess_287a73a3-0609-4574-851b-7c6934a21ebb",
+        "timestamp": 1793979553510
+      }
+    ],
+    "4.3 Write property test for reset being idempotent and reaching a fixed point": [
+      {
+        "executionId": "d36021a7-1a2e-487e-886d-3c3183127d7d",
+        "chatSessionId": "sess_287a73a3-0609-4574-851b-7c6934a21ebb",
+        "timestamp": 1793979554722
+      }
+    ],
+    "5.4 Write property test for toggle being an involution": [
+      {
+        "executionId": "d36021a7-1a2e-487e-886d-3c3183127d7d",
+        "chatSessionId": "sess_287a73a3-0609-4574-851b-7c6934a21ebb",
+        "timestamp": 1793979555290
+      }
+    ],
+    "5.5 Write property test for deleting a task removing it and preserving the rest": [
+      {
+        "executionId": "d36021a7-1a2e-487e-886d-3c3183127d7d",
+        "chatSessionId": "sess_287a73a3-0609-4574-851b-7c6934a21ebb",
+        "timestamp": 1793979556016
+      }
+    ],
+    "5.3 Write property test for editing a task replacing only the target": [
+      {
+        "executionId": "d36021a7-1a2e-487e-886d-3c3183127d7d",
+        "chatSessionId": "sess_287a73a3-0609-4574-851b-7c6934a21ebb",
+        "timestamp": 1793979556569
+      }
+    ],
+    "5.6 Write property test for invalid task text being rejected by add and edit": [
+      {
+        "executionId": "d36021a7-1a2e-487e-886d-3c3183127d7d",
+        "chatSessionId": "sess_287a73a3-0609-4574-851b-7c6934a21ebb",
+        "timestamp": 1793979565401
+      }
+    ],
+    "6.2 Write property test for adding a valid link growing the list by exactly one": [
+      {
+        "executionId": "d36021a7-1a2e-487e-886d-3c3183127d7d",
+        "chatSessionId": "sess_287a73a3-0609-4574-851b-7c6934a21ebb",
+        "timestamp": 1793979566037
+      }
+    ],
+    "6.3 Write property test for deleting a link removing it and preserving the rest": [
+      {
+        "executionId": "d36021a7-1a2e-487e-886d-3c3183127d7d",
+        "chatSessionId": "sess_287a73a3-0609-4574-851b-7c6934a21ebb",
+        "timestamp": 1793979567116
+      }
+    ],
+    "6.4 Write property test for invalid link input being rejected by add": [
+      {
+        "executionId": "d36021a7-1a2e-487e-886d-3c3183127d7d",
+        "chatSessionId": "sess_287a73a3-0609-4574-851b-7c6934a21ebb",
+        "timestamp": 1793979567823
+      }
+    ],
+    "7.3 Write persistence integration tests": [
+      {
+        "executionId": "d36021a7-1a2e-487e-886d-3c3183127d7d",
+        "chatSessionId": "sess_287a73a3-0609-4574-851b-7c6934a21ebb",
+        "timestamp": 1793979568918
+      }
+    ],
+    "8.2 Write unit tests for greeting widget DOM": [
+      {
+        "executionId": "d36021a7-1a2e-487e-886d-3c3183127d7d",
+        "chatSessionId": "sess_287a73a3-0609-4574-851b-7c6934a21ebb",
+        "timestamp": 1793979569595
+      }
+    ],
+    "8.4 Write unit tests for focus timer DOM": [
+      {
+        "executionId": "d36021a7-1a2e-487e-886d-3c3183127d7d",
+        "chatSessionId": "sess_287a73a3-0609-4574-851b-7c6934a21ebb",
+        "timestamp": 1793979570472
+      }
+    ],
+    "8.6 Write unit tests for to-do list DOM": [
+      {
+        "executionId": "d36021a7-1a2e-487e-886d-3c3183127d7d",
+        "chatSessionId": "sess_287a73a3-0609-4574-851b-7c6934a21ebb",
+        "timestamp": 1793979571166
+      }
+    ],
+    "8.8 Write unit tests for quick links DOM": [
+      {
+        "executionId": "d36021a7-1a2e-487e-886d-3c3183127d7d",
+        "chatSessionId": "sess_287a73a3-0609-4574-851b-7c6934a21ebb",
+        "timestamp": 1793979572183
+      }
+    ],
+    "9.2 Write integration tests for full add/edit/toggle/delete/persist flow": [
+      {
+        "executionId": "d36021a7-1a2e-487e-886d-3c3183127d7d",
+        "chatSessionId": "sess_287a73a3-0609-4574-851b-7c6934a21ebb",
+        "timestamp": 1793979572758
+      }
+    ],
+    "9.3 Write smoke tests (no-network constraint, project structure, cross-browser)": [
+      {
+        "executionId": "d36021a7-1a2e-487e-886d-3c3183127d7d",
+        "chatSessionId": "sess_287a73a3-0609-4574-851b-7c6934a21ebb",
+        "timestamp": 1793979573252
+      }
+    ],
+    "1. Set up project structure and test infrastructure": [
+      {
+        "executionId": "d36021a7-1a2e-487e-886d-3c3183127d7d",
+        "chatSessionId": "sess_287a73a3-0609-4574-851b-7c6934a21ebb",
+        "timestamp": 1793983678218
+      }
+    ]
+  }
+}
